@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CRUD Application</title>
+  <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+  <h1>CRUD Application</h1>
+  <form id="entity-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <button type="submit">Add</button>
+  </form>
+  <table id="entities-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="entities-body">
+    </tbody>
+  </table>
+  <script src="crud.js"></script>
+</body>
+</html>
